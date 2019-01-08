@@ -1,3 +1,10 @@
+# study-electron
+
+##参考サイト
+- https://qiita.com/ehr174/items/85b7cb7e7c93efef8889
+- https://qiita.com/edo1z/items/07dbe581588d38a000f2
+
+## 以下create-react-appによる自動生成
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
