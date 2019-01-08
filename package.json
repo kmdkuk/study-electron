@@ -16,8 +16,8 @@
     "eject": "react-scripts-ts eject",
     "electron": "electron .",
     "dev": "nf start -p 3000",
-    "win-package": "electron-packager . study-electron --platform=win32 --arc=x64 --out=release",
-    "mac-package": "electron-packager . study-electron --platform=darwin --arc=x64 --out=release"
+    "win-build": "electron-packager . study-electron --platform=win32 --arc=x64 --out=build",
+    "mac-build": "electron-packager . study-electron --platform=darwin --arc=x64 --out=build"
   },
   "devDependencies": {
     "@types/jest": "^23.3.12",
@@ -26,7 +26,11 @@
     "@types/react-dom": "^16.0.11",
     "electron": "^4.0.1",
     "electron-packager": "^13.0.1",
+    "electron-windows-installer": "^1.7.8",
     "foreman": "^3.0.1",
+    "grunt": "^1.0.3",
+    "grunt-electron-installer": "^2.1.0",
+    "gulp": "^4.0.0",
     "typescript": "^3.2.2"
   }
 }
