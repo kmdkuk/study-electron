@@ -41,6 +41,7 @@
     "strict-boolean-expressions": [
       false
     ],
-    "jsx-boolean-value": false
+    "jsx-boolean-value": false,
+    "no-empty": false
   }
 }

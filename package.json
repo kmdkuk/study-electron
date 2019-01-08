@@ -16,13 +16,8 @@
     "eject": "react-scripts-ts eject",
     "electron": "electron .",
     "dev": "nf start -p 3000",
-<<<<<<< HEAD
-    "win-build": "electron-packager . study-electron --platform=win32 --arc=x64 --out=build",
-    "mac-build": "electron-packager . study-electron --platform=darwin --arc=x64 --out=build"
-=======
-    "win-build": "electron-packager . study-electron --platform=win32 --arc=x64 --out=release/build",
-    "mac-build": "electron-packager . study-electron --platform=darwin --arc=x64 --out=release/build"
->>>>>>> fe1ccdf37a80cb9b28282f22af2a3ed34c327238
+    "win-build": "electron-packager . study-electron --overwrite --platform=win32 --arc=x64 --out=release/build",
+    "mac-build": "electron-packager . study-electron --overwrite --platform=darwin --arc=x64 --out=release/build"
   },
   "devDependencies": {
     "@types/jest": "^23.3.12",
